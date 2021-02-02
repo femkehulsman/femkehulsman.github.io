@@ -134,14 +134,14 @@ title1: jekyll test
 
   <!-- Callout -->
 
-  <ul>
+  <div>
       {% for post in site.posts %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
           {{ post.content }}
         </li>
       {% endfor %}
-      </ul>
+    </div>
 
   <section class="callout">
     <div class="container text-center">
